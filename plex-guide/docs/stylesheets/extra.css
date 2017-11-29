@@ -1,0 +1,117 @@
+@import "https://fonts.googleapis.com/earlyaccess/notosansjp.css";
+@import "https://fonts.googleapis.com/earlyaccess/cwtexhei.css";
+
+@media only screen and (max-width: 76.1875em) {
+    .md-nav {
+        background-color: #3F4245;
+    }
+}
+
+.md-header {
+    background-color: #3F4245;
+}
+
+.md-container, .md-search__scrollwrap, input, .md-search__overlay {
+    background-color: #282A2D;
+}
+
+.md-header .md-search__input, .md-header .md-search__input::placeholder,
+.md-header .md-search__input ~ .md-search__icon {
+    background-color: #282A2D !important;
+    color: #ccc !important;
+}
+
+.md-typeset .footnote, .md-search-result__meta, .md-search__input,
+.md-search__input::placeholder, .md-search__input ~ .md-search__icon,
+.md-search-result__teaser {
+    color: #ccc;
+}
+
+.md-search-result__meta {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+body, .md-header .md-search__input::placeholder {
+    color: #ccc;
+    font-family: "Trebuchet MS", cwTeXHei, "Noto Sans JP", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.md-typeset pre {
+    background-color: #3F4245;
+}
+
+.md-typeset code {
+    color: #ccc;
+    box-shadow: 0.29412em 0 0 rgba(0, 0, 0, 0.5), -0.29412em 0 0 rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.md-nav__link[data-md-state=blur] {
+    color: rgba(230, 230, 230, 0.54);
+}
+
+.md-typeset h1 {
+    color: #ccc;
+}
+
+.md-tabs {
+    background-color: #3F4245;
+}
+
+a.md-tabs__link--active, a.md-tabs__link:hover, .md-typeset a, .md-nav__link:hover,
+.md-search-result__article--document:before, .md-search-result__title {
+    color: #E5A00D;
+}
+
+.md-nav__link {
+    color: #ccc;
+}
+
+.md-nav__title, .md-nav__title:before {
+    color: #ccc !important;
+}
+
+a footnote-ref::before {
+    border-color: #E5A00D;
+}
+
+a footnote-ref::before {
+    color: #E5A00D;
+}
+
+.md-nav__item--active > .md-nav__link, .md-nav__link:active {
+    color: #E5A00D;
+}
+
+.md-nav--secondary {
+    border-left: 0.4rem solid #E5A00D;
+}
+
+.md-nav__link:focus, .md-nav__link:hover {
+    color: #E5A00D;
+}
+
+.md-typeset hr {
+    border-bottom: .1rem dotted #666;
+}
+
+.md-footer-copyright {
+    color: #666;
+}
+
+.md-typeset blockquote {
+    padding-left: 1.2rem;
+    border-left: 0.4rem solid rgba(230, 230, 230, 0.26);
+    color: rgba(230, 230, 230, 0.54);
+}
+
+@media only screen and (max-width: 76.1875em) {
+    html .md-nav--primary .md-nav__title--site {
+        background-color: #3F4245;
+    }
+
+    html .md-nav--primary .md-nav__title ~ .md-nav__list {
+        background: linear-gradient(180deg, #3F4245 10%, transparent), linear-gradient(180deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.07) 35%, transparent 60%);
+        background-color: #282A2D;
+    }
+}

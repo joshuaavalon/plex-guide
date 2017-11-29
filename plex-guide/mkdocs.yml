@@ -1,0 +1,28 @@
+site_name: 'Plex 使用者指南'
+site_description: 'A Material Design theme for MkDocs'
+site_author: 'Joshua Avalon'
+#site_url: 'https://squidfunk.github.io/mkdocs-material/'
+
+theme:
+  name: 'material'
+  logo: 'images/icon.png'
+  feature:
+    tabs: true
+  font: false
+  favicon: 'images/favicon.ico'
+  language: 'zh-Hant'
+
+extra:
+  search:
+    language: 'en, jp'
+
+extra_css:
+  - 'stylesheets/extra.min.css'
+
+copyright: 'Copyright &copy; 2017 - 2017 Joshua Avalon'
+
+markdown_extensions:
+  - admonition
+
+pages:
+  - 首頁: index.md
