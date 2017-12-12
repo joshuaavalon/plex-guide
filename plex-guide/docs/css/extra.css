@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/earlyaccess/notosansjp.css";
-@import "https://fonts.googleapis.com/earlyaccess/cwtexhei.css";
+@import "https://fonts.googleapis.com/earlyaccess/notosanstc.css";
 
 @media only screen and (max-width: 76.1875em) {
     .md-nav {
@@ -33,7 +33,7 @@
 
 body, .md-header .md-search__input::placeholder {
     color: #ccc;
-    font-family: "Trebuchet MS", cwTeXHei, "Noto Sans JP", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: "Noto Sans TC", "Noto Sans JP", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .md-typeset pre {
@@ -114,4 +114,13 @@ a footnote-ref::before {
         background: linear-gradient(180deg, #3F4245 10%, transparent), linear-gradient(180deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.07) 35%, transparent 60%);
         background-color: #282A2D;
     }
+}
+
+p img {
+    display: block;
+    margin: 0 auto;
+}
+
+code, kbd, pre {
+    font-family: "Courier New", Courier, "Noto Sans TC", "Noto Sans JP", monospace;
 }

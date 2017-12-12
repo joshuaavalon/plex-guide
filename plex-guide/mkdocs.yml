@@ -5,11 +5,9 @@ site_author: 'Joshua Avalon'
 
 theme:
   name: 'material'
-  logo: 'images/icon.png'
-  feature:
-    tabs: true
+  logo: 'img/icon.png'
   font: false
-  favicon: 'images/favicon.ico'
+  favicon: 'img/favicon.ico'
   language: 'zh-Hant'
 
 extra:
@@ -17,7 +15,7 @@ extra:
     language: 'en, jp'
 
 extra_css:
-  - 'stylesheets/extra.min.css'
+  - 'css/extra.min.css'
 
 copyright: 'Copyright &copy; 2017 - 2017 Joshua Avalon'
 
@@ -25,4 +23,7 @@ markdown_extensions:
   - admonition
 
 pages:
-  - 首頁: index.md
+  - 簡介: index.md
+  - 網頁版: web.md
+  - Android: android.md
+  - iOS: ios.md
