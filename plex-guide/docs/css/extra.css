@@ -124,3 +124,11 @@ p img {
 code, kbd, pre {
     font-family: "Courier New", Courier, "Noto Sans TC", "Noto Sans JP", monospace;
 }
+
+.md-content article :not(a) > img {
+    cursor: url("../img/plus_cursor.png") 25 25, auto;
+}
+
+.md-content article img {
+    max-height: 300px;
+}

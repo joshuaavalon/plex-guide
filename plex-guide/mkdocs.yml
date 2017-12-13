@@ -12,10 +12,13 @@ theme:
 
 extra:
   search:
-    language: 'en, jp'
+    language: 'jp'
 
 extra_css:
   - 'css/extra.min.css'
+
+extra_javascript:
+  - 'js/intense.min.js'
 
 copyright: 'Copyright &copy; 2017 - 2017 Joshua Avalon'
 
@@ -25,5 +28,5 @@ markdown_extensions:
 pages:
   - 簡介: index.md
   - 網頁版: web.md
-  - Android: android.md
-  - iOS: ios.md
+  - Android版: android.md
+  - iOS版: ios.md

@@ -1,7 +1,8 @@
-# Plex 使用者指南
+# iOS版
 
-tes
+[![iOS app store](img/apple-app-store.png)](https://itunes.apple.com/us/app/plex/id383457673?mt=8)
 
-## 3
+!!! tip "提示"
+    iOS版僅支援iOS 9.3+
 
-teset
+TBD
