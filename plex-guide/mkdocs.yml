@@ -27,6 +27,7 @@ markdown_extensions:
 
 pages:
   - 簡介: index.md
+  - 首次設定: first.md
   - 網頁版: web.md
   - Android版: android.md
   - iOS版: ios.md
